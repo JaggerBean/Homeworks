@@ -7,7 +7,7 @@ This repo contains 2 python files. These files calculate the turbidity of water 
 # :open_file_folder: How to download the data
 To download the json data set that was used in these files visit https://raw.githubusercontent.com/wjallen/turbidity/main/turbidity_data.json
 
-# :memo::pencil:What does each file do
+# :memo:What does each file do
 read_turbidity.py reads the turbidity data from the json file. It then calculates the average turbidity from the last 5 data sets. Then it uses this average turbidity to calculate the time remaining until the water is safe to drink. 
 test_turbidity.py tests the functions within read_turbidity.py to make sure that they are working as intended.
 
