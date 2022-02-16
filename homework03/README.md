@@ -1,7 +1,8 @@
-# Hello, <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> This file contains Jagger Bean's homework03 submission for COE332
+# Hello, <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> This repo contains Jagger Bean's homework03 submission for COE332
 
 
-This folder contains 2 python files. These files calculate the turbidity of water and the time until is safe to drink given json data of the water.
+# What is the purpose?
+This repo contains 2 python files. These files calculate the turbidity of water and the time until is safe to drink given json data of the water.
 
 to download the json data set that was used in these files visit https://raw.githubusercontent.com/wjallen/turbidity/main/turbidity_data.json
 
