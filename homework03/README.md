@@ -1,4 +1,4 @@
-# Hello, <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> This repo contains Jagger Bean's homework03 submission for COE332
+# Hello, <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> This repo contains python scripts to calculate water turbidity and when it will be safe to drink!
 
 
 # :grey_question:What is the purpose:grey_question:
