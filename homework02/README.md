@@ -1,4 +1,4 @@
-#Jagger Bean's Homework02 for COE332
+# Jagger Bean's Homework02 for COE332
 
 
 WHAT IT IS:
