@@ -1,0 +1,32 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jagger-test-deployment
+  labels:
+    app: jagger-test-redis
+    username: jagger
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jagger-test-redis
+  template:
+    metadata:
+      labels:
+        app: jagger-test-redis
+        username: jagger
+        env: test
+    spec:
+      containers:
+        - name: jagger-test
+          imagePullPolicy: Always
+          image: redis:6
+          volumeMounts:
+          - name: jagger-test-data
+            mountPath: "/data"
+      volumes:
+      - name: jagger-test-data
+        persistentVolumeClaim:
+          claimName: jagger-test-data

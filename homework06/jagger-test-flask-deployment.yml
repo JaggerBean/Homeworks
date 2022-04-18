@@ -1,0 +1,27 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jagger-test-flask
+  labels:
+    app: jagger-test-flask
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jagger-test-flask
+  template:
+    metadata:
+      labels:
+        app: jagger-test-flask
+    spec:
+      containers:
+        - name: jagger-test-flask
+          imagePullPolicy: Always
+          image: jaggerbean/hw05:latest
+          env:
+          - name: FLASK_APP
+            value: "app.py"
+          ports:
+          - name: http
+            containerPort: 5000
