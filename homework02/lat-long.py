@@ -16,6 +16,8 @@ lon4 = random.uniform(82.0, 84.0)
 lat5 = random.uniform(16.0, 18.0)
 lon5 = random.uniform(82.0, 84.0)
 
+
+
 composition1 = random.choice(["stony", "iron", "stony-iron"])
 
 composition2 = random.choice(["stony", "iron", "stony-iron"])
