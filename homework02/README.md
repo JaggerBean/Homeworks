@@ -1,13 +1,13 @@
-# Jagger Bean's Homework02 for COE332
+# Mars Rover Meteorite Samples 
 
 
 WHAT IT IS:
 
-This folder contains all of the files that are required for my homework02 assignment.
-This assignment works with .json files by creating one and reading its data into a python file.
+This folder contains all of the files that detail the total time required for a mars rover to gather data of meteorites on Mars..
+These scripts work with .json files by creating one and reading its data into a python file.
 
 
-WHAT DO THE FILES DO:
+WHAT DO THE SCRIPTS DO:
 
 lat-lon.py creates a file called sites.json every time it is ran.
 the sites.json file contains 5 positions of meteorites.

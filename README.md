@@ -1,1 +1,2 @@
-# this repository contains all of my homework assignments for COE332
+# COE332 Homework Repository
+This repository contains homeworks 01-07 for Jagger Bean's COE332 class at UT Austin.
